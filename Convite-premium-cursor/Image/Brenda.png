@@ -1,0 +1,33 @@
+<svg width="80" height="80" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+  <!-- Face -->
+  <circle cx="40" cy="35" r="18" fill="#D4A574" stroke="#C8956D" stroke-width="1"/>
+  
+  <!-- Hair -->
+  <path d="M22 22 Q40 12 58 22 Q58 32 56 38 Q52 44 40 44 Q28 44 24 38 Q22 32 22 22" fill="#1A1A1A"/>
+  <path d="M25 25 Q30 23 35 25 Q40 27 45 25 Q50 23 55 25" fill="#1A1A1A"/>
+  
+  <!-- Eyes -->
+  <circle cx="34" cy="32" r="2" fill="#8B4513"/>
+  <circle cx="46" cy="32" r="2" fill="#8B4513"/>
+  <circle cx="34.5" cy="31.5" r="0.5" fill="white"/>
+  <circle cx="46.5" cy="31.5" r="0.5" fill="white"/>
+  
+  <!-- Nose -->
+  <ellipse cx="40" cy="37" rx="1" ry="2" fill="#C8956D"/>
+  
+  <!-- Mouth -->
+  <path d="M37 42 Q40 44 43 42" stroke="#A0522D" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  
+  <!-- Eyebrows -->
+  <path d="M31 28 Q34 27 37 28" stroke="#000000" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <path d="M43 28 Q46 27 49 28" stroke="#000000" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  
+  <!-- Body/Shoulders -->
+  <ellipse cx="40" cy="65" rx="20" ry="15" fill="#16A085"/>
+  
+  <!-- Lipstick -->
+  <ellipse cx="40" cy="42" rx="3" ry="1.5" fill="#C0392B"/>
+  
+  <!-- Hair accessory -->
+  <circle cx="50" cy="25" r="2" fill="#E67E22"/>
+</svg>

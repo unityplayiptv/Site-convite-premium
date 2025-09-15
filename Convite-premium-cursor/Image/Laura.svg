@@ -1,0 +1,70 @@
+<svg width="80" height="80" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="faceGradient2" cx="0.3" cy="0.3">
+      <stop offset="0%" stop-color="#FDBCB4"/>
+      <stop offset="100%" stop-color="#F4A261"/>
+    </radialGradient>
+    <linearGradient id="hairGradient2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#654321"/>
+      <stop offset="100%" stop-color="#3E2723"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Face with realistic shading -->
+  <ellipse cx="40" cy="35" rx="15" ry="18" fill="url(#faceGradient2)"/>
+  
+  <!-- Face contour -->
+  <path d="M27 28 Q40 22 53 28 Q53 44 40 50 Q27 44 27 28" fill="url(#faceGradient2)" stroke="#E8A87C" stroke-width="0.5"/>
+  
+  <!-- Hair with realistic waves -->
+  <path d="M25 18 Q40 5 55 18 Q57 28 55 36 Q51 41 47 43 Q43 45 40 45 Q37 45 33 43 Q29 41 25 36 Q23 28 25 18" fill="url(#hairGradient2)"/>
+  <path d="M27 20 Q32 16 37 18 Q40 20 43 18 Q48 16 53 20" fill="#3E2723" opacity="0.6"/>
+  <path d="M29 22 Q34 19 39 21 Q40 23 41 21 Q46 19 51 22" fill="#2E1A17" opacity="0.4"/>
+  
+  <!-- Realistic eyes with green color -->
+  <ellipse cx="34" cy="32" rx="3.5" ry="2.5" fill="white"/>
+  <ellipse cx="46" cy="32" rx="3.5" ry="2.5" fill="white"/>
+  <circle cx="34" cy="32" r="1.8" fill="#27AE60"/>
+  <circle cx="46" cy="32" r="1.8" fill="#27AE60"/>
+  <circle cx="34" cy="32" r="0.9" fill="black"/>
+  <circle cx="46" cy="32" r="0.9" fill="black"/>
+  <circle cx="34.4" cy="31.6" r="0.4" fill="white"/>
+  <circle cx="46.4" cy="31.6" r="0.4" fill="white"/>
+  
+  <!-- Upper eyelids -->
+  <path d="M30.5 30.5 Q34 29 37.5 30.5" stroke="#D4A574" stroke-width="0.8" fill="none"/>
+  <path d="M42.5 30.5 Q46 29 49.5 30.5" stroke="#D4A574" stroke-width="0.8" fill="none"/>
+  
+  <!-- Eyelashes -->
+  <path d="M31 30 L32 28.5 M33 29.5 L34 28 M35 29.5 L36 28 M37 30 L38 28.5" stroke="black" stroke-width="0.6"/>
+  <path d="M43 30 L44 28.5 M45 29.5 L46 28 M47 29.5 L48 28 M49 30 L50 28.5" stroke="black" stroke-width="0.6"/>
+  
+  <!-- Eyebrows with texture -->
+  <path d="M30 27.5 Q34 25.5 38 27.5" stroke="#3E2723" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M42 27.5 Q46 25.5 50 27.5" stroke="#3E2723" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  
+  <!-- Nose with detailed shading -->
+  <path d="M40 34 Q39 37.5 40 40.5 Q41 37.5 40 34" fill="#F4A261"/>
+  <ellipse cx="39" cy="38.5" rx="0.6" ry="1.2" fill="#E8A87C"/>
+  <ellipse cx="41" cy="38.5" rx="0.6" ry="1.2" fill="#E8A87C"/>
+  <path d="M40 36 L40 39" stroke="#E8A87C" stroke-width="0.3"/>
+  
+  <!-- Realistic lips with gloss -->
+  <path d="M37 42.5 Q40 45 43 42.5 Q40 44 37 42.5" fill="#E74C3C"/>
+  <path d="M37.5 42.7 Q40 43.8 42.5 42.7" stroke="#C0392B" stroke-width="0.4" fill="none"/>
+  <ellipse cx="40" cy="43.2" rx="2" ry="0.5" fill="white" opacity="0.3"/>
+  
+  <!-- Cheek definition -->
+  <ellipse cx="29" cy="38" rx="3.5" ry="2.5" fill="#F4A261" opacity="0.4"/>
+  <ellipse cx="51" cy="38" rx="3.5" ry="2.5" fill="#F4A261" opacity="0.4"/>
+  
+  <!-- Neck and shoulders -->
+  <rect x="36" y="50" width="8" height="14" fill="url(#faceGradient2)"/>
+  <ellipse cx="40" cy="70" rx="20" ry="10" fill="#9B59B6"/>
+  
+  <!-- Realistic earrings -->
+  <circle cx="24" cy="35" r="2" fill="#F1C40F" stroke="#E67E22" stroke-width="0.3"/>
+  <circle cx="56" cy="35" r="2" fill="#F1C40F" stroke="#E67E22" stroke-width="0.3"/>
+  <circle cx="24" cy="35" r="0.8" fill="white" opacity="0.6"/>
+  <circle cx="56" cy="35" r="0.8" fill="white" opacity="0.6"/>
+</svg>
